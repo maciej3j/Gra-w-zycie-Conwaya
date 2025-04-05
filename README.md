@@ -1,1 +1,1 @@
-# Gra-w-ycie-Conwaya
+# Gra w życie Conway'a
