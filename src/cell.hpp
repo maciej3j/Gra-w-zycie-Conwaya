@@ -1,9 +1,9 @@
 
 class Cell {
-  bool alive = false;
-  // bool next_state = false;
+  bool alive;
+
 public:
-  bool is_alive() { return alive; }
-  void set_alive(bool al) { alive = al; }
-  // bool next_state(){}
+  Cell(bool is_alive = false) : alive{is_alive} {}
+  bool is_alive() const { return alive; }
+  void set_alive(bool is_alive) { alive = is_alive; }
 };
